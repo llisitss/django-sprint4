@@ -27,6 +27,22 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Static files
+staticfiles/
+static_collected/
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
